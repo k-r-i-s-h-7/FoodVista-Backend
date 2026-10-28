@@ -1,0 +1,1726 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "unit": "nutrients per 100 g of prepared dish",
+    "nutrients": [
+      "carbohydrates_g",
+      "fat_g",
+      "protein_g",
+      "fibre_g",
+      "sugar_g"
+    ],
+    "ingredient_profile_notes": [
+      "Profiles for ingredients in the original user-provided JSON were retained.",
+      "Additional generic ingredient profiles were added as approximate estimates to support mixture calculations.",
+      "The original chicken, egg, corn, dal, and gravy values include the user's supplied notes/basis only where applicable; verify before production use.",
+      "Some ingredients are proxies (for example, chickpeas for rajma, and a generic gravy profile). Replace proxies with dedicated profiles for better accuracy."
+    ],
+    "warning": "Dish ingredient proportions and nutrient totals are estimates, not verified recipes or laboratory measurements."
+  },
+  "_ingredient_profiles_per_100g": {
+    "beans": {
+      "carbohydrates_g": 26.22,
+      "fat_g": 0.65,
+      "protein_g": 9.01,
+      "fibre_g": 9.0,
+      "sugar_g": 0.34
+    },
+    "bell_pepper": {
+      "carbohydrates_g": 6.61,
+      "fat_g": 0.17,
+      "protein_g": 0.86,
+      "fibre_g": 1.7,
+      "sugar_g": 2.4
+    },
+    "naan": {
+      "carbohydrates_g": 50.43,
+      "fat_g": 5.65,
+      "protein_g": 9.62,
+      "fibre_g": 2.2,
+      "sugar_g": 3.55
+    },
+    "broccoli": {
+      "carbohydrates_g": 6.27,
+      "fat_g": 0.34,
+      "protein_g": 2.57,
+      "fibre_g": 2.4,
+      "sugar_g": 1.7
+    },
+    "carrot": {
+      "carbohydrates_g": 9.58,
+      "fat_g": 0.24,
+      "protein_g": 0.93,
+      "fibre_g": 2.8,
+      "sugar_g": 4.74
+    },
+    "cauliflower": {
+      "carbohydrates_g": 4.97,
+      "fat_g": 0.28,
+      "protein_g": 1.92,
+      "fibre_g": 2.0,
+      "sugar_g": 1.91
+    },
+    "chicken_cooked": {
+      "carbohydrates_g": 0.0,
+      "fat_g": 9.63,
+      "protein_g": 26.05,
+      "fibre_g": 0.0,
+      "sugar_g": 0.0
+    },
+    "chole_cooked_chickpeas": {
+      "carbohydrates_g": 20.7,
+      "fat_g": 2.59,
+      "protein_g": 7.48,
+      "fibre_g": 7.42,
+      "sugar_g": 4.8
+    },
+    "corn_cooked": {
+      "carbohydrates_g": 13.31,
+      "fat_g": 1.6,
+      "protein_g": 3.635,
+      "fibre_g": 5.43,
+      "sugar_g": 2.25
+    },
+    "egg": {
+      "carbohydrates_g": 1.95,
+      "fat_g": 10.68,
+      "protein_g": 12.915,
+      "fibre_g": 0.0,
+      "sugar_g": 1.5
+    },
+    "green_peas_cooked": {
+      "carbohydrates_g": 15.6,
+      "fat_g": 0.22,
+      "protein_g": 5.36,
+      "fibre_g": 5.5,
+      "sugar_g": 5.93
+    },
+    "noodles": {
+      "carbohydrates_g": 25.2,
+      "fat_g": 2.1,
+      "protein_g": 4.5,
+      "fibre_g": 1.2,
+      "sugar_g": 0.0
+    },
+    "olive": {
+      "carbohydrates_g": 6.26,
+      "fat_g": 10.68,
+      "protein_g": 0.84,
+      "fibre_g": 3.2,
+      "sugar_g": 0.0
+    },
+    "onion": {
+      "carbohydrates_g": 9.3,
+      "fat_g": 0.1,
+      "protein_g": 1.1,
+      "fibre_g": 1.7,
+      "sugar_g": 4.2
+    },
+    "paneer": {
+      "carbohydrates_g": 2.25,
+      "fat_g": 24.5,
+      "protein_g": 17.5,
+      "fibre_g": 0.0,
+      "sugar_g": 2.25
+    },
+    "pasta": {
+      "carbohydrates_g": 30.9,
+      "fat_g": 0.9,
+      "protein_g": 5.8,
+      "fibre_g": 1.8,
+      "sugar_g": 0.6
+    },
+    "potato": {
+      "carbohydrates_g": 20.1,
+      "fat_g": 0.1,
+      "protein_g": 1.9,
+      "fibre_g": 1.8,
+      "sugar_g": 0.9
+    },
+    "rice": {
+      "carbohydrates_g": 28.2,
+      "fat_g": 0.28,
+      "protein_g": 2.69,
+      "fibre_g": 0.4,
+      "sugar_g": 0.05
+    },
+    "shrimp": {
+      "carbohydrates_g": 1.5,
+      "fat_g": 1.7,
+      "protein_g": 22.8,
+      "fibre_g": 0.0,
+      "sugar_g": 0.0
+    },
+    "tomato": {
+      "carbohydrates_g": 3.89,
+      "fat_g": 0.2,
+      "protein_g": 0.88,
+      "fibre_g": 1.2,
+      "sugar_g": 3.62
+    },
+    "dal": {
+      "carbohydrates_g": 20.3,
+      "fat_g": 5.8,
+      "protein_g": 7.3,
+      "fibre_g": 6.7,
+      "sugar_g": 2.5
+    },
+    "gravy": {
+      "carbohydrates_g": 5.2,
+      "fat_g": 11.4,
+      "protein_g": 1.9,
+      "fibre_g": 0.7,
+      "sugar_g": 3.5
+    },
+    "spinach": {
+      "carbohydrates_g": 3.6,
+      "fat_g": 0.4,
+      "protein_g": 2.9,
+      "fibre_g": 2.2,
+      "sugar_g": 0.4
+    },
+    "flour": {
+      "carbohydrates_g": 76.3,
+      "fat_g": 1.0,
+      "protein_g": 10.3,
+      "fibre_g": 2.7,
+      "sugar_g": 0.3
+    },
+    "oil": {
+      "carbohydrates_g": 0.0,
+      "fat_g": 100.0,
+      "protein_g": 0.0,
+      "fibre_g": 0.0,
+      "sugar_g": 0.0
+    },
+    "sugar": {
+      "carbohydrates_g": 100.0,
+      "fat_g": 0.0,
+      "protein_g": 0.0,
+      "fibre_g": 0.0,
+      "sugar_g": 100.0
+    },
+    "milk": {
+      "carbohydrates_g": 4.8,
+      "fat_g": 3.3,
+      "protein_g": 3.2,
+      "fibre_g": 0.0,
+      "sugar_g": 5.1
+    },
+    "yogurt": {
+      "carbohydrates_g": 4.7,
+      "fat_g": 3.3,
+      "protein_g": 3.5,
+      "fibre_g": 0.0,
+      "sugar_g": 4.7
+    },
+    "lemon": {
+      "carbohydrates_g": 9.3,
+      "fat_g": 0.3,
+      "protein_g": 1.1,
+      "fibre_g": 2.8,
+      "sugar_g": 2.5
+    },
+    "mushroom": {
+      "carbohydrates_g": 3.3,
+      "fat_g": 0.3,
+      "protein_g": 3.1,
+      "fibre_g": 1.0,
+      "sugar_g": 2.0
+    },
+    "coconut": {
+      "carbohydrates_g": 15.2,
+      "fat_g": 33.5,
+      "protein_g": 3.3,
+      "fibre_g": 9.0,
+      "sugar_g": 6.2
+    },
+    "coconut_milk": {
+      "carbohydrates_g": 2.8,
+      "fat_g": 23.8,
+      "protein_g": 2.3,
+      "fibre_g": 2.2,
+      "sugar_g": 2.0
+    },
+    "bread": {
+      "carbohydrates_g": 49.0,
+      "fat_g": 3.2,
+      "protein_g": 9.0,
+      "fibre_g": 2.7,
+      "sugar_g": 5.0
+    },
+    "meat_cooked": {
+      "carbohydrates_g": 0.0,
+      "fat_g": 12.0,
+      "protein_g": 26.0,
+      "fibre_g": 0.0,
+      "sugar_g": 0.0
+    },
+    "fish_cooked": {
+      "carbohydrates_g": 0.0,
+      "fat_g": 5.0,
+      "protein_g": 22.0,
+      "fibre_g": 0.0,
+      "sugar_g": 0.0
+    },
+    "mutton_cooked": {
+      "carbohydrates_g": 0.0,
+      "fat_g": 21.0,
+      "protein_g": 25.0,
+      "fibre_g": 0.0,
+      "sugar_g": 0.0
+    },
+    "lentils_cooked": {
+      "carbohydrates_g": 20.1,
+      "fat_g": 0.4,
+      "protein_g": 9.0,
+      "fibre_g": 7.9,
+      "sugar_g": 1.8
+    },
+    "peas": {
+      "carbohydrates_g": 14.5,
+      "fat_g": 0.4,
+      "protein_g": 5.4,
+      "fibre_g": 5.1,
+      "sugar_g": 5.7
+    },
+    "cucumber": {
+      "carbohydrates_g": 3.6,
+      "fat_g": 0.1,
+      "protein_g": 0.7,
+      "fibre_g": 0.5,
+      "sugar_g": 1.7
+    },
+    "lettuce": {
+      "carbohydrates_g": 2.9,
+      "fat_g": 0.2,
+      "protein_g": 1.4,
+      "fibre_g": 1.3,
+      "sugar_g": 0.8
+    },
+    "apple": {
+      "carbohydrates_g": 13.8,
+      "fat_g": 0.2,
+      "protein_g": 0.3,
+      "fibre_g": 2.4,
+      "sugar_g": 10.4
+    },
+    "banana": {
+      "carbohydrates_g": 22.8,
+      "fat_g": 0.3,
+      "protein_g": 1.1,
+      "fibre_g": 2.6,
+      "sugar_g": 12.2
+    },
+    "cream": {
+      "carbohydrates_g": 3.0,
+      "fat_g": 20.0,
+      "protein_g": 2.1,
+      "fibre_g": 0.0,
+      "sugar_g": 3.0
+    },
+    "tomato_sauce": {
+      "carbohydrates_g": 7.0,
+      "fat_g": 2.0,
+      "protein_g": 1.5,
+      "fibre_g": 1.5,
+      "sugar_g": 4.0
+    },
+    "cheese": {
+      "carbohydrates_g": 1.3,
+      "fat_g": 33.0,
+      "protein_g": 25.0,
+      "fibre_g": 0.0,
+      "sugar_g": 0.5
+    },
+    "chickpea_flour": {
+      "carbohydrates_g": 57.8,
+      "fat_g": 6.7,
+      "protein_g": 22.4,
+      "fibre_g": 10.8,
+      "sugar_g": 10.9
+    },
+    "cocoa": {
+      "carbohydrates_g": 57.9,
+      "fat_g": 13.7,
+      "protein_g": 19.6,
+      "fibre_g": 33.2,
+      "sugar_g": 1.8
+    },
+    "water": {
+      "carbohydrates_g": 0.0,
+      "fat_g": 0.0,
+      "protein_g": 0.0,
+      "fibre_g": 0.0,
+      "sugar_g": 0.0
+    },
+    "spices": {
+      "carbohydrates_g": 50.0,
+      "fat_g": 10.0,
+      "protein_g": 10.0,
+      "fibre_g": 20.0,
+      "sugar_g": 5.0
+    },
+    "tea_infusion": {
+      "carbohydrates_g": 0.3,
+      "fat_g": 0.0,
+      "protein_g": 0.0,
+      "fibre_g": 0.0,
+      "sugar_g": 0.0
+    },
+    "coffee": {
+      "carbohydrates_g": 0.0,
+      "fat_g": 0.0,
+      "protein_g": 0.1,
+      "fibre_g": 0.0,
+      "sugar_g": 0.0
+    },
+    "potato_filling": {
+      "carbohydrates_g": 18.0,
+      "fat_g": 4.0,
+      "protein_g": 2.0,
+      "fibre_g": 2.0,
+      "sugar_g": 1.0
+    },
+    "dough": {
+      "carbohydrates_g": 50.0,
+      "fat_g": 6.0,
+      "protein_g": 8.0,
+      "fibre_g": 2.0,
+      "sugar_g": 2.0
+    },
+    "fried_batter": {
+      "carbohydrates_g": 35.0,
+      "fat_g": 12.0,
+      "protein_g": 6.0,
+      "fibre_g": 2.0,
+      "sugar_g": 2.0
+    },
+    "syrup": {
+      "carbohydrates_g": 65.0,
+      "fat_g": 0.0,
+      "protein_g": 0.0,
+      "fibre_g": 0.0,
+      "sugar_g": 65.0
+    },
+    "semolina": {
+      "carbohydrates_g": 73.0,
+      "fat_g": 1.0,
+      "protein_g": 12.0,
+      "fibre_g": 3.9,
+      "sugar_g": 0.4
+    },
+    "flattened_rice": {
+      "carbohydrates_g": 77.0,
+      "fat_g": 1.0,
+      "protein_g": 7.0,
+      "fibre_g": 2.0,
+      "sugar_g": 1.0
+    },
+    "yogurt_gravy": {
+      "carbohydrates_g": 6.0,
+      "fat_g": 8.0,
+      "protein_g": 3.5,
+      "fibre_g": 0.5,
+      "sugar_g": 5.0
+    },
+    "curry_gravy": {
+      "carbohydrates_g": 5.2,
+      "fat_g": 11.4,
+      "protein_g": 1.9,
+      "fibre_g": 0.7,
+      "sugar_g": 3.5
+    }
+  },
+  "aloo_gobi": {
+    "base_type": "dry",
+    "ingredients": {
+      "potato": 0.42,
+      "cauliflower": 0.42,
+      "tomato": 0.07,
+      "onion": 0.06,
+      "oil": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 11.36,
+      "fat_g": 3.18,
+      "protein_g": 1.73,
+      "fibre_g": 1.78,
+      "sugar_g": 1.69
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "aloo_sabji": {
+    "base_type": "gravy",
+    "ingredients": {
+      "potato": 0.65,
+      "tomato": 0.12,
+      "onion": 0.12,
+      "oil": 0.06,
+      "spices": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 17.15,
+      "fat_g": 6.6,
+      "protein_g": 1.97,
+      "fibre_g": 2.52,
+      "sugar_g": 1.77
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "aloomasala": {
+    "base_type": "gravy",
+    "ingredients": {
+      "potato": 0.6,
+      "curry_gravy": 0.25,
+      "onion": 0.08,
+      "tomato": 0.04,
+      "oil": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 14.26,
+      "fat_g": 5.93,
+      "protein_g": 1.74,
+      "fibre_g": 1.44,
+      "sugar_g": 1.9
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "appam": {
+    "base_type": "other",
+    "ingredients": {
+      "rice": 0.45,
+      "coconut_milk": 0.2,
+      "water": 0.3,
+      "sugar": 0.02,
+      "oil": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 15.25,
+      "fat_g": 7.89,
+      "protein_g": 1.67,
+      "fibre_g": 0.62,
+      "sugar_g": 2.42
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "avial": {
+    "base_type": "gravy",
+    "ingredients": {
+      "carrot": 0.2,
+      "beans": 0.2,
+      "potato": 0.15,
+      "green_peas_cooked": 0.1,
+      "yogurt": 0.15,
+      "coconut": 0.12,
+      "spices": 0.05,
+      "oil": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 16.76,
+      "fat_g": 8.23,
+      "protein_g": 4.23,
+      "fibre_g": 5.26,
+      "sugar_g": 3.44
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "bhatura": {
+    "base_type": "other",
+    "ingredients": {
+      "flour": 0.55,
+      "yogurt": 0.12,
+      "water": 0.2,
+      "oil": 0.13
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 42.53,
+      "fat_g": 13.95,
+      "protein_g": 6.09,
+      "fibre_g": 1.49,
+      "sugar_g": 0.73
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "bhindi": {
+    "base_type": "dry",
+    "ingredients": {
+      "beans": 0.55,
+      "onion": 0.15,
+      "tomato": 0.15,
+      "oil": 0.1,
+      "spices": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 18.9,
+      "fat_g": 10.9,
+      "protein_g": 5.75,
+      "fibre_g": 6.38,
+      "sugar_g": 1.61
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "biryani": {
+    "base_type": "rice",
+    "ingredients": {
+      "rice": 0.65,
+      "chicken_cooked": 0.18,
+      "onion": 0.08,
+      "yogurt": 0.04,
+      "oil": 0.03,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 20.26,
+      "fat_g": 5.26,
+      "protein_g": 6.87,
+      "fibre_g": 0.8,
+      "sugar_g": 0.66
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "broccoli": {
+    "base_type": "dry",
+    "ingredients": {
+      "broccoli": 0.9,
+      "oil": 0.05,
+      "spices": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 8.14,
+      "fat_g": 5.81,
+      "protein_g": 2.81,
+      "fibre_g": 3.16,
+      "sugar_g": 1.78
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "cake": {
+    "base_type": "other",
+    "ingredients": {
+      "flour": 0.35,
+      "sugar": 0.25,
+      "egg": 0.15,
+      "milk": 0.1,
+      "oil": 0.1,
+      "cocoa": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 55.37,
+      "fat_g": 12.97,
+      "protein_g": 6.84,
+      "fibre_g": 2.6,
+      "sugar_g": 25.93
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "carrot": {
+    "base_type": "dry",
+    "ingredients": {
+      "carrot": 0.9,
+      "oil": 0.05,
+      "spices": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 11.12,
+      "fat_g": 5.72,
+      "protein_g": 1.34,
+      "fibre_g": 3.52,
+      "sugar_g": 4.52
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "chai": {
+    "base_type": "other",
+    "ingredients": {
+      "milk": 0.35,
+      "water": 0.45,
+      "sugar": 0.15,
+      "tea_infusion": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 16.7,
+      "fat_g": 1.15,
+      "protein_g": 1.12,
+      "fibre_g": 0.0,
+      "sugar_g": 16.79
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "chicken": {
+    "base_type": "dry",
+    "ingredients": {
+      "chicken_cooked": 0.85,
+      "yogurt": 0.05,
+      "oil": 0.06,
+      "spices": 0.04
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 2.23,
+      "fat_g": 14.75,
+      "protein_g": 22.72,
+      "fibre_g": 0.8,
+      "sugar_g": 0.44
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "chicken_curry": {
+    "base_type": "gravy",
+    "ingredients": {
+      "chicken_cooked": 0.45,
+      "curry_gravy": 0.35,
+      "onion": 0.08,
+      "tomato": 0.07,
+      "spices": 0.03,
+      "oil": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 4.34,
+      "fat_g": 10.65,
+      "protein_g": 12.84,
+      "fibre_g": 1.06,
+      "sugar_g": 1.96
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "chips": {
+    "base_type": "dry",
+    "ingredients": {
+      "potato": 0.65,
+      "oil": 0.33,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 14.07,
+      "fat_g": 33.27,
+      "protein_g": 1.43,
+      "fibre_g": 1.57,
+      "sugar_g": 0.69
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "chole": {
+    "base_type": "gravy",
+    "ingredients": {
+      "chole_cooked_chickpeas": 0.65,
+      "curry_gravy": 0.2,
+      "onion": 0.07,
+      "tomato": 0.05,
+      "oil": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 15.34,
+      "fat_g": 6.98,
+      "protein_g": 5.36,
+      "fibre_g": 5.14,
+      "sugar_g": 4.3
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "chutney": {
+    "base_type": "other",
+    "ingredients": {
+      "coconut": 0.45,
+      "tomato": 0.2,
+      "spinach": 0.15,
+      "lemon": 0.1,
+      "water": 0.08,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 10.09,
+      "fat_g": 15.4,
+      "protein_g": 2.41,
+      "fibre_g": 5.3,
+      "sugar_g": 3.92
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "cookie": {
+    "base_type": "other",
+    "ingredients": {
+      "flour": 0.45,
+      "sugar": 0.25,
+      "oil": 0.15,
+      "egg": 0.1,
+      "cocoa": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 62.43,
+      "fat_g": 17.2,
+      "protein_g": 6.91,
+      "fibre_g": 2.88,
+      "sugar_g": 25.38
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "cracker": {
+    "base_type": "other",
+    "ingredients": {
+      "flour": 0.75,
+      "oil": 0.12,
+      "water": 0.1,
+      "sugar": 0.01,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 59.22,
+      "fat_g": 12.95,
+      "protein_g": 7.93,
+      "fibre_g": 2.43,
+      "sugar_g": 1.33
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "dal": {
+    "base_type": "dal",
+    "ingredients": {
+      "dal": 0.95,
+      "oil": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 19.29,
+      "fat_g": 10.51,
+      "protein_g": 6.93,
+      "fibre_g": 6.37,
+      "sugar_g": 2.38
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "donuts": {
+    "base_type": "other",
+    "ingredients": {
+      "flour": 0.45,
+      "sugar": 0.15,
+      "milk": 0.1,
+      "egg": 0.1,
+      "oil": 0.2
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 50.01,
+      "fat_g": 21.85,
+      "protein_g": 6.25,
+      "fibre_g": 1.22,
+      "sugar_g": 15.79
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "dosa": {
+    "base_type": "other",
+    "ingredients": {
+      "rice": 0.45,
+      "lentils_cooked": 0.2,
+      "water": 0.25,
+      "oil": 0.1
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 16.71,
+      "fat_g": 10.21,
+      "protein_g": 3.01,
+      "fibre_g": 1.76,
+      "sugar_g": 0.38
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "dry_fruits": {
+    "base_type": "other",
+    "ingredients": {
+      "coconut": 0.2,
+      "apple": 0.2,
+      "banana": 0.2,
+      "beans": 0.2,
+      "water": 0.2
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 15.6,
+      "fat_g": 6.93,
+      "protein_g": 2.74,
+      "fibre_g": 4.6,
+      "sugar_g": 5.83
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "dum_aloo": {
+    "base_type": "gravy",
+    "ingredients": {
+      "potato": 0.6,
+      "curry_gravy": 0.25,
+      "yogurt": 0.07,
+      "oil": 0.05,
+      "spices": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 15.19,
+      "fat_g": 8.44,
+      "protein_g": 2.16,
+      "fibre_g": 1.85,
+      "sugar_g": 1.89
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "eggs": {
+    "base_type": "dry",
+    "ingredients": {
+      "egg": 0.9,
+      "oil": 0.08,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 2.75,
+      "fat_g": 17.81,
+      "protein_g": 11.82,
+      "fibre_g": 0.4,
+      "sugar_g": 1.45
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "fish_curry": {
+    "base_type": "gravy",
+    "ingredients": {
+      "fish_cooked": 0.45,
+      "curry_gravy": 0.35,
+      "tomato": 0.1,
+      "onion": 0.07,
+      "oil": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 2.86,
+      "fat_g": 9.27,
+      "protein_g": 10.73,
+      "fibre_g": 0.48,
+      "sugar_g": 1.88
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "frenchfries": {
+    "base_type": "dry",
+    "ingredients": {
+      "potato": 0.68,
+      "oil": 0.3,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 14.67,
+      "fat_g": 30.27,
+      "protein_g": 1.49,
+      "fibre_g": 1.62,
+      "sugar_g": 0.71
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "ghevar": {
+    "base_type": "other",
+    "ingredients": {
+      "flour": 0.45,
+      "oil": 0.2,
+      "syrup": 0.3,
+      "water": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 53.84,
+      "fat_g": 20.45,
+      "protein_g": 4.64,
+      "fibre_g": 1.22,
+      "sugar_g": 19.64
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "gulab_jamun": {
+    "base_type": "other",
+    "ingredients": {
+      "dough": 0.55,
+      "syrup": 0.35,
+      "oil": 0.1
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 50.25,
+      "fat_g": 13.3,
+      "protein_g": 4.4,
+      "fibre_g": 1.1,
+      "sugar_g": 23.85
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "idli": {
+    "base_type": "other",
+    "ingredients": {
+      "rice": 0.55,
+      "lentils_cooked": 0.25,
+      "water": 0.18,
+      "oil": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 20.54,
+      "fat_g": 2.25,
+      "protein_g": 3.73,
+      "fibre_g": 2.2,
+      "sugar_g": 0.48
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "jalebi": {
+    "base_type": "other",
+    "ingredients": {
+      "flour": 0.4,
+      "syrup": 0.4,
+      "oil": 0.2
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 56.52,
+      "fat_g": 20.4,
+      "protein_g": 4.12,
+      "fibre_g": 1.08,
+      "sugar_g": 26.12
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "kebab": {
+    "base_type": "other",
+    "ingredients": {
+      "meat_cooked": 0.75,
+      "onion": 0.1,
+      "oil": 0.08,
+      "spices": 0.07
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 4.43,
+      "fat_g": 17.71,
+      "protein_g": 20.31,
+      "fibre_g": 1.57,
+      "sugar_g": 0.77
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "kheer": {
+    "base_type": "other",
+    "ingredients": {
+      "milk": 0.65,
+      "rice": 0.15,
+      "sugar": 0.12,
+      "water": 0.05,
+      "spices": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 20.85,
+      "fat_g": 2.49,
+      "protein_g": 2.78,
+      "fibre_g": 0.66,
+      "sugar_g": 15.47
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "kulfi": {
+    "base_type": "other",
+    "ingredients": {
+      "milk": 0.55,
+      "cream": 0.2,
+      "sugar": 0.15,
+      "coconut": 0.05,
+      "water": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 19.0,
+      "fat_g": 7.49,
+      "protein_g": 2.35,
+      "fibre_g": 0.45,
+      "sugar_g": 18.71
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "lasagna": {
+    "base_type": "other",
+    "ingredients": {
+      "pasta": 0.35,
+      "meat_cooked": 0.2,
+      "tomato_sauce": 0.2,
+      "cheese": 0.15,
+      "milk": 0.05,
+      "oil": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 12.65,
+      "fat_g": 13.23,
+      "protein_g": 11.44,
+      "fibre_g": 0.93,
+      "sugar_g": 1.34
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "lassi": {
+    "base_type": "other",
+    "ingredients": {
+      "yogurt": 0.7,
+      "water": 0.2,
+      "sugar": 0.08,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 12.29,
+      "fat_g": 2.51,
+      "protein_g": 2.65,
+      "fibre_g": 0.4,
+      "sugar_g": 11.39
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "lemon": {
+    "base_type": "other",
+    "ingredients": {
+      "lemon": 0.95,
+      "water": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 8.84,
+      "fat_g": 0.28,
+      "protein_g": 1.04,
+      "fibre_g": 2.66,
+      "sugar_g": 2.38
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "lemonade": {
+    "base_type": "other",
+    "ingredients": {
+      "water": 0.8,
+      "lemon": 0.12,
+      "sugar": 0.08
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 9.12,
+      "fat_g": 0.04,
+      "protein_g": 0.13,
+      "fibre_g": 0.34,
+      "sugar_g": 8.3
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "mushroom": {
+    "base_type": "dry",
+    "ingredients": {
+      "mushroom": 0.85,
+      "onion": 0.08,
+      "oil": 0.05,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 4.55,
+      "fat_g": 5.46,
+      "protein_g": 2.92,
+      "fibre_g": 1.39,
+      "sugar_g": 2.14
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "mutton_curry": {
+    "base_type": "gravy",
+    "ingredients": {
+      "mutton_cooked": 0.45,
+      "curry_gravy": 0.35,
+      "onion": 0.08,
+      "tomato": 0.08,
+      "oil": 0.04
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 2.88,
+      "fat_g": 17.46,
+      "protein_g": 12.07,
+      "fibre_g": 0.48,
+      "sugar_g": 1.85
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "omelette": {
+    "base_type": "dry",
+    "ingredients": {
+      "egg": 0.85,
+      "onion": 0.08,
+      "oil": 0.05,
+      "tomato": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 2.48,
+      "fat_g": 14.09,
+      "protein_g": 11.08,
+      "fibre_g": 0.16,
+      "sugar_g": 1.68
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "pakoda": {
+    "base_type": "dry",
+    "ingredients": {
+      "onion": 0.35,
+      "chickpea_flour": 0.35,
+      "water": 0.15,
+      "oil": 0.13,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 24.48,
+      "fat_g": 15.58,
+      "protein_g": 8.42,
+      "fibre_g": 4.78,
+      "sugar_g": 5.38
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "palak_paneer": {
+    "base_type": "gravy",
+    "ingredients": {
+      "spinach": 0.5,
+      "paneer": 0.25,
+      "curry_gravy": 0.15,
+      "onion": 0.05,
+      "oil": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 3.61,
+      "fat_g": 13.04,
+      "protein_g": 6.17,
+      "fibre_g": 1.29,
+      "sugar_g": 1.5
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "pancake": {
+    "base_type": "other",
+    "ingredients": {
+      "flour": 0.4,
+      "milk": 0.25,
+      "egg": 0.15,
+      "sugar": 0.08,
+      "oil": 0.12
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 40.01,
+      "fat_g": 14.83,
+      "protein_g": 6.86,
+      "fibre_g": 1.08,
+      "sugar_g": 9.62
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "pasta": {
+    "base_type": "gravy",
+    "ingredients": {
+      "pasta": 0.55,
+      "meat_cooked": 0.2,
+      "tomato_sauce": 0.15,
+      "onion": 0.05,
+      "oil": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 18.51,
+      "fat_g": 8.2,
+      "protein_g": 8.67,
+      "fibre_g": 1.3,
+      "sugar_g": 1.14
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "poha": {
+    "base_type": "rice",
+    "ingredients": {
+      "flattened_rice": 0.7,
+      "potato": 0.1,
+      "onion": 0.1,
+      "green_peas_cooked": 0.05,
+      "oil": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 57.62,
+      "fat_g": 5.73,
+      "protein_g": 5.47,
+      "fibre_g": 2.02,
+      "sugar_g": 1.51
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "popcorn": {
+    "base_type": "dry",
+    "ingredients": {
+      "flour": 0.05,
+      "oil": 0.05,
+      "water": 0.9
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 3.81,
+      "fat_g": 5.05,
+      "protein_g": 0.52,
+      "fibre_g": 0.14,
+      "sugar_g": 0.01
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "poriyal": {
+    "base_type": "dry",
+    "ingredients": {
+      "beans": 0.55,
+      "coconut": 0.15,
+      "onion": 0.1,
+      "oil": 0.05,
+      "broccoli": 0.15
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 18.57,
+      "fat_g": 10.44,
+      "protein_g": 5.95,
+      "fibre_g": 6.83,
+      "sugar_g": 1.79
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "potato": {
+    "base_type": "dry",
+    "ingredients": {
+      "potato": 0.9,
+      "oil": 0.07,
+      "spices": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 19.59,
+      "fat_g": 7.39,
+      "protein_g": 2.01,
+      "fibre_g": 2.22,
+      "sugar_g": 0.96
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "rajma": {
+    "base_type": "gravy",
+    "ingredients": {
+      "chole_cooked_chickpeas": 0.6,
+      "curry_gravy": 0.25,
+      "onion": 0.07,
+      "tomato": 0.05,
+      "oil": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 14.57,
+      "fat_g": 7.42,
+      "protein_g": 5.08,
+      "fibre_g": 4.81,
+      "sugar_g": 4.23
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "ras_malai": {
+    "base_type": "other",
+    "ingredients": {
+      "milk": 0.45,
+      "paneer": 0.25,
+      "sugar": 0.15,
+      "cream": 0.1,
+      "spices": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 20.52,
+      "fat_g": 10.11,
+      "protein_g": 6.53,
+      "fibre_g": 1.0,
+      "sugar_g": 18.41
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "rice": {
+    "base_type": "rice",
+    "ingredients": {
+      "rice": 1.0
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 28.2,
+      "fat_g": 0.28,
+      "protein_g": 2.69,
+      "fibre_g": 0.4,
+      "sugar_g": 0.05
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "roti": {
+    "base_type": "other",
+    "ingredients": {
+      "flour": 0.7,
+      "water": 0.27,
+      "oil": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 53.41,
+      "fat_g": 3.7,
+      "protein_g": 7.21,
+      "fibre_g": 1.89,
+      "sugar_g": 0.21
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "saag": {
+    "base_type": "gravy",
+    "ingredients": {
+      "spinach": 0.75,
+      "onion": 0.1,
+      "tomato": 0.08,
+      "oil": 0.05,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 4.94,
+      "fat_g": 5.53,
+      "protein_g": 2.56,
+      "fibre_g": 2.32,
+      "sugar_g": 1.11
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "salad": {
+    "base_type": "dry",
+    "ingredients": {
+      "cucumber": 0.3,
+      "tomato": 0.25,
+      "carrot": 0.2,
+      "lettuce": 0.2,
+      "lemon": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 5.01,
+      "fat_g": 0.18,
+      "protein_g": 0.95,
+      "fibre_g": 1.41,
+      "sugar_g": 2.65
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "salatini": {
+    "base_type": "other",
+    "ingredients": {
+      "flour": 0.75,
+      "oil": 0.12,
+      "water": 0.1,
+      "sugar": 0.01,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 59.22,
+      "fat_g": 12.95,
+      "protein_g": 7.93,
+      "fibre_g": 2.43,
+      "sugar_g": 1.33
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "sambar": {
+    "base_type": "dal",
+    "ingredients": {
+      "dal": 0.45,
+      "tomato": 0.15,
+      "carrot": 0.12,
+      "beans": 0.1,
+      "onion": 0.08,
+      "water": 0.07,
+      "spices": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 15.73,
+      "fat_g": 3.04,
+      "protein_g": 4.82,
+      "fibre_g": 5.17,
+      "sugar_g": 2.76
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "samosa": {
+    "base_type": "other",
+    "ingredients": {
+      "dough": 0.35,
+      "potato_filling": 0.45,
+      "peas": 0.08,
+      "oil": 0.1,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 27.76,
+      "fat_g": 14.13,
+      "protein_g": 4.33,
+      "fibre_g": 2.41,
+      "sugar_g": 1.71
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "sandwich": {
+    "base_type": "other",
+    "ingredients": {
+      "bread": 0.45,
+      "paneer": 0.2,
+      "tomato": 0.12,
+      "cucumber": 0.1,
+      "lettuce": 0.08,
+      "yogurt": 0.05
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 23.79,
+      "fat_g": 6.56,
+      "protein_g": 8.01,
+      "fibre_g": 1.51,
+      "sugar_g": 3.6
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "shahi_paneer": {
+    "base_type": "gravy",
+    "ingredients": {
+      "paneer": 0.35,
+      "curry_gravy": 0.35,
+      "cream": 0.12,
+      "onion": 0.08,
+      "tomato": 0.07,
+      "spices": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 5.48,
+      "fat_g": 15.29,
+      "protein_g": 7.49,
+      "fibre_g": 1.06,
+      "sugar_g": 3.11
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "tomato": {
+    "base_type": "dry",
+    "ingredients": {
+      "tomato": 0.95,
+      "oil": 0.02,
+      "spices": 0.03
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 5.2,
+      "fat_g": 2.49,
+      "protein_g": 1.14,
+      "fibre_g": 1.74,
+      "sugar_g": 3.59
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "uttapam": {
+    "base_type": "other",
+    "ingredients": {
+      "rice": 0.45,
+      "lentils_cooked": 0.25,
+      "onion": 0.1,
+      "tomato": 0.08,
+      "water": 0.08,
+      "oil": 0.04
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 18.96,
+      "fat_g": 4.25,
+      "protein_g": 3.64,
+      "fibre_g": 2.42,
+      "sugar_g": 1.18
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  },
+  "vada": {
+    "base_type": "dry",
+    "ingredients": {
+      "lentils_cooked": 0.65,
+      "onion": 0.1,
+      "oil": 0.23,
+      "spices": 0.02
+    },
+    "nutrients_per_100g": {
+      "carbohydrates_g": 15.0,
+      "fat_g": 23.47,
+      "protein_g": 6.16,
+      "fibre_g": 5.71,
+      "sugar_g": 1.69
+    },
+    "estimation_notes": [
+      "Ingredient fractions are approximate assumed mass proportions, not a verified recipe.",
+      "Nutrient values are weighted estimates from the included ingredient profiles."
+    ]
+  }
+}

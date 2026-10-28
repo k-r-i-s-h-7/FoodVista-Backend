@@ -1,0 +1,32 @@
+
+{
+    
+    "appam": 60,
+    "bhatura": 90,
+    "cookie": 30,
+    "cracker": 5,
+    "donuts": 75,
+    "ghevar": 100,
+    "gulab_jamun": 40,
+    "idli": 40,
+    "jalebi": 30,
+    "kebab": 80,
+    "kulfi": 80,
+    "lemon": 60,
+    "pancake": 60,
+    "ras_malai": 80,
+    "roti": 40,
+    "salatini": 5,
+    "samosa": 75,
+    "uttapam": 150,
+    "vada": 50,
+    "cake": 100,
+    "chai": 200,
+    "chutney": 30,
+    "dry_fruits": 30,
+    "kheer": 150,
+    "lasagna": 300,
+    "lassi": 250,
+    "lemonade": 250,
+    "sandwich": 200
+}

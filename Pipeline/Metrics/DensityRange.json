@@ -1,0 +1,14 @@
+{
+    "Low":{
+        "lower_bound": 0.3,
+        "upper_bound": 0.6
+    },
+    "High":{
+        "lower_bound": 0.9,
+        "upper_bound": 1.2
+    },
+    "Medium":{
+        "lower_bound": 0.6,
+        "upper_bound": 0.9
+    }
+}

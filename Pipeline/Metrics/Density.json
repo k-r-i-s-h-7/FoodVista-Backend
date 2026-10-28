@@ -1,0 +1,254 @@
+{
+  "aloo_gobi": {
+    "density_class": "Medium",
+    "source": "Original: Aloo Gobi"
+  },
+  "aloo_sabji": {
+    "density_class": "Medium",
+    "source": "Inferred: Cooked potato and vegetables"
+  },
+  "aloomasala": {
+    "density_class": "Medium",
+    "source": "Original: Aloo Masala"
+  },
+  "appam": {
+    "density_class": "Low",
+    "source": "Original: Appam"
+  },
+  "avial": {
+    "density_class": "Medium",
+    "source": "Inferred: Cooked mixed vegetables"
+  },
+  "bhatura": {
+    "density_class": "Low",
+    "source": "Original: Bhatura"
+  },
+  "bhindi": {
+    "density_class": "Medium",
+    "source": "Original: Bhindi Masala"
+  },
+  "biryani": {
+    "density_class": "Medium",
+    "source": "Original: Biryani"
+  },
+  "broccoli": {
+    "density_class": "Medium",
+    "source": "Inferred: Solid vegetable"
+  },
+  "cake": {
+    "density_class": "Low",
+    "source": "Inferred: Aerated baked product"
+  },
+  "carrot": {
+    "density_class": "Medium",
+    "source": "Inferred: Solid vegetable"
+  },
+  "chai": {
+    "density_class": "High",
+    "source": "USDA FDC 174834"
+  },
+  "chicken": {
+    "density_class": "Medium",
+    "source": "Original: Chicken Roast"
+  },
+  "chicken_curry": {
+    "density_class": "High",
+    "source": "Original: Chicken Curry"
+  },
+  "chips": {
+    "density_class": "Low",
+    "source": "Inferred: Loose, porous snack"
+  },
+  "chole": {
+    "density_class": "Medium",
+    "source": "Original: Chole"
+  },
+  "chutney": {
+    "density_class": "High",
+    "source": "Original: Coconut/Green/Kara/Puthina Chutney"
+  },
+  "cookie": {
+    "density_class": "Medium",
+    "source": "Inferred: Baked solid snack"
+  },
+  "cracker": {
+    "density_class": "Low",
+    "source": "Original: Saltini (Saltines)"
+  },
+  "dal": {
+    "density_class": "Medium",
+    "source": "USDA FDC 172421"
+  },
+  "donuts": {
+    "density_class": "Low",
+    "source": "Original: Donut"
+  },
+  "dosa": {
+    "density_class": "Low",
+    "source": "Original: Dosa"
+  },
+  "dry_fruits": {
+    "density_class": "Medium",
+    "source": "Inferred: Solid nuts and dried fruit"
+  },
+  "dum_aloo": {
+    "density_class": "Medium",
+    "source": "Original: Dum Aloo"
+  },
+  "eggs": {
+    "density_class": "Medium",
+    "source": "Inferred: Solid cooked egg"
+  },
+  "fish_curry": {
+    "density_class": "High",
+    "source": "Original: Fish Curry"
+  },
+  "frenchfries": {
+    "density_class": "Low",
+    "source": "USDA FDC 170425"
+  },
+  "ghevar": {
+    "density_class": "Low",
+    "source": "Original: Ghevar"
+  },
+  "gulab_jamun": {
+    "density_class": "High",
+    "source": "Original: Gulab Jamun"
+  },
+  "idli": {
+    "density_class": "Low",
+    "source": "Original: Idli"
+  },
+  "jalebi": {
+    "density_class": "Low",
+    "source": "Original: Jalebi"
+  },
+  "kebab": {
+    "density_class": "Medium",
+    "source": "Original: Kebab"
+  },
+  "kheer": {
+    "density_class": "High",
+    "source": "Original: Kheer"
+  },
+  "kulfi": {
+    "density_class": "High",
+    "source": "Original: Kulfi"
+  },
+  "lasagna": {
+    "density_class": "High",
+    "source": "USDA FDC 173167"
+  },
+  "lassi": {
+    "density_class": "High",
+    "source": "Original: Lassi"
+  },
+  "lemon": {
+    "density_class": "Medium",
+    "source": "Inferred: Whole solid fruit"
+  },
+  "lemonade": {
+    "density_class": "High",
+    "source": "Inferred: Liquid beverage"
+  },
+  "mushroom": {
+    "density_class": "Medium",
+    "source": "Inferred: Solid vegetable"
+  },
+  "mutton_curry": {
+    "density_class": "High",
+    "source": "Original: Mutton Curry"
+  },
+  "omelette": {
+    "density_class": "Medium",
+    "source": "Original: Omlette"
+  },
+  "pakoda": {
+    "density_class": "Low",
+    "source": "Original: Onion Pakoda"
+  },
+  "palak_paneer": {
+    "density_class": "High",
+    "source": "Original: Palak Paneer"
+  },
+  "pancake": {
+    "density_class": "Low",
+    "source": "Original: Pancakes"
+  },
+  "pasta": {
+    "density_class": "Medium",
+    "source": "Original: Pasta al ragu"
+  },
+  "poha": {
+    "density_class": "Low",
+    "source": "Original: Poha"
+  },
+  "popcorn": {
+    "density_class": "Low",
+    "source": "Inferred: Highly aerated snack"
+  },
+  "poriyal": {
+    "density_class": "Medium",
+    "source": "Inferred: Cooked vegetables"
+  },
+  "potato": {
+    "density_class": "Medium",
+    "source": "Inferred: Solid potato"
+  },
+  "rajma": {
+    "density_class": "Medium",
+    "source": "USDA FDC 173744"
+  },
+  "ras_malai": {
+    "density_class": "High",
+    "source": "Original: Ras Malai"
+  },
+  "rice": {
+    "density_class": "Medium",
+    "source": "USDA FDC 170554"
+  },
+  "roti": {
+    "density_class": "Medium",
+    "source": "Inferred: Unleavened flatbread"
+  },
+  "saag": {
+    "density_class": "High",
+    "source": "Inferred: Pureed or wet cooked greens"
+  },
+  "salad": {
+    "density_class": "Low",
+    "source": "Inferred: Loosely packed raw vegetables"
+  },
+  "salatini": {
+    "density_class": "Low",
+    "source": "Original: Saltini (Saltines)"
+  },
+  "sambar": {
+    "density_class": "High",
+    "source": "Inferred: Liquid lentil and vegetable preparation"
+  },
+  "samosa": {
+    "density_class": "Medium",
+    "source": "Original: Samosa"
+  },
+  "sandwich": {
+    "density_class": "Low",
+    "source": "Original: Sandwich"
+  },
+  "shahi_paneer": {
+    "density_class": "High",
+    "source": "Original: Shahi Paneer"
+  },
+  "tomato": {
+    "density_class": "Medium",
+    "source": "Inferred: Whole solid vegetable"
+  },
+  "uttapam": {
+    "density_class": "Low",
+    "source": "Inferred: Aerated fermented batter"
+  },
+  "vada": {
+    "density_class": "Low",
+    "source": "Original: Medu Vada"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "aloo_gobi": {
+    "nuts": false,
+    "lactose": false
+  },
+  "aloo_sabji": {
+    "nuts": true,
+    "lactose": false
+  },
+  "aloomasala": {
+    "nuts": false,
+    "lactose": false
+  },
+  "appam": {
+    "nuts": false,
+    "lactose": false
+  },
+  "avial": {
+    "nuts": true,
+    "lactose": false
+  },
+  "bhatura": {
+    "nuts": false,
+    "lactose": false
+  },
+  "bhindi": {
+    "nuts": false,
+    "lactose": false
+  },
+  "biryani": {
+    "nuts": true,
+    "lactose": false
+  },
+  "broccoli": {
+    "nuts": false,
+    "lactose": false
+  },
+  "cake": {
+    "nuts": true,
+    "lactose": true
+  },
+  "carrot": {
+    "nuts": false,
+    "lactose": false
+  },
+  "chai": {
+    "nuts": false,
+    "lactose": true
+  },
+  "chicken": {
+    "nuts": false,
+    "lactose": false
+  },
+  "chicken_curry": {
+    "nuts": true,
+    "lactose": true
+  },
+  "chips": {
+    "nuts": false,
+    "lactose": false
+  },
+  "chole": {
+    "nuts": false,
+    "lactose": false
+  },
+  "chutney": {
+    "nuts": true,
+    "lactose": false
+  },
+  "cookie": {
+    "nuts": true,
+    "lactose": true
+  },
+  "cracker": {
+    "nuts": false,
+    "lactose": false
+  },
+  "dal": {
+    "nuts": false,
+    "lactose": false
+  },
+  "donuts": {
+    "nuts": true,
+    "lactose": true
+  },
+  "dosa": {
+    "nuts": false,
+    "lactose": false
+  },
+  "dry_fruits": {
+    "nuts": true,
+    "lactose": false
+  },
+  "dum_aloo": {
+    "nuts": true,
+    "lactose": true
+  },
+  "eggs": {
+    "nuts": false,
+    "lactose": false
+  },
+  "fish_curry": {
+    "nuts": true,
+    "lactose": false
+  },
+  "frenchfries": {
+    "nuts": false,
+    "lactose": false
+  },
+  "ghevar": {
+    "nuts": true,
+    "lactose": true
+  },
+  "gulab_jamun": {
+    "nuts": false,
+    "lactose": true
+  },
+  "idli": {
+    "nuts": false,
+    "lactose": false
+  },
+  "jalebi": {
+    "nuts": false,
+    "lactose": false
+  },
+  "kebab": {
+    "nuts": true,
+    "lactose": false
+  },
+  "kheer": {
+    "nuts": true,
+    "lactose": true
+  },
+  "kulfi": {
+    "nuts": true,
+    "lactose": true
+  },
+  "lasagna": {
+    "nuts": false,
+    "lactose": true
+  },
+  "lassi": {
+    "nuts": false,
+    "lactose": true
+  },
+  "lemon": {
+    "nuts": false,
+    "lactose": false
+  },
+  "lemonade": {
+    "nuts": false,
+    "lactose": false
+  },
+  "mushroom": {
+    "nuts": false,
+    "lactose": false
+  },
+  "mutton_curry": {
+    "nuts": true,
+    "lactose": false
+  },
+  "omelette": {
+    "nuts": false,
+    "lactose": false
+  },
+  "pakoda": {
+    "nuts": false,
+    "lactose": false
+  },
+  "palak_paneer": {
+    "nuts": false,
+    "lactose": true
+  },
+  "pancake": {
+    "nuts": false,
+    "lactose": true
+  },
+  "pasta": {
+    "nuts": false,
+    "lactose": true
+  },
+  "poha": {
+    "nuts": true,
+    "lactose": false
+  },
+  "popcorn": {
+    "nuts": false,
+    "lactose": false
+  },
+  "poriyal": {
+    "nuts": false,
+    "lactose": false
+  },
+  "potato": {
+    "nuts": false,
+    "lactose": false
+  },
+  "rajma": {
+    "nuts": true,
+    "lactose": false
+  },
+  "ras_malai": {
+    "nuts": true,
+    "lactose": true
+  },
+  "rice": {
+    "nuts": true,
+    "lactose": true
+  },
+  "roti": {
+    "nuts": false,
+    "lactose": false
+  },
+  "saag": {
+    "nuts": false,
+    "lactose": false
+  },
+  "salad": {
+    "nuts": false,
+    "lactose": false
+  },
+  "salatini": {
+    "nuts": false,
+    "lactose": false
+  },
+  "sambar": {
+    "nuts": false,
+    "lactose": false
+  },
+  "samosa": {
+    "nuts": true,
+    "lactose": false
+  },
+  "sandwich": {
+    "nuts": false,
+    "lactose": true
+  },
+  "shahi_paneer": {
+    "nuts": true,
+    "lactose": true
+  },
+  "tomato": {
+    "nuts": false,
+    "lactose": false
+  },
+  "uttapam": {
+    "nuts": false,
+    "lactose": false
+  },
+  "vada": {
+    "nuts": false,
+    "lactose": false
+  }
+}

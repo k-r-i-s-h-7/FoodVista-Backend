@@ -1,0 +1,200 @@
+{
+  "unit": "per 100 g",
+  "nutrients": [
+    "carbohydrates_g",
+    "fat_g",
+    "protein_g",
+    "fibre_g",
+    "sugar_g"
+  ],
+  "ingredients": [
+    {
+      "name": "beans",
+      "carbohydrates_g": 26.22,
+      "fat_g": 0.65,
+      "protein_g": 9.01,
+      "fibre_g": 9.0,
+      "sugar_g": 0.34
+    },
+    {
+      "name": "bell_pepper",
+      "carbohydrates_g": 6.61,
+      "fat_g": 0.17,
+      "protein_g": 0.86,
+      "fibre_g": 1.7,
+      "sugar_g": 2.4
+    },
+    {
+      "name": "naan",
+      "carbohydrates_g": 50.43,
+      "fat_g": 5.65,
+      "protein_g": 9.62,
+      "fibre_g": 2.2,
+      "sugar_g": 3.55
+    },
+    {
+      "name": "broccoli",
+      "carbohydrates_g": 6.27,
+      "fat_g": 0.34,
+      "protein_g": 2.57,
+      "fibre_g": 2.4,
+      "sugar_g": 1.7
+    },
+    {
+      "name": "carrot",
+      "carbohydrates_g": 9.58,
+      "fat_g": 0.24,
+      "protein_g": 0.93,
+      "fibre_g": 2.8,
+      "sugar_g": 4.74
+    },
+    {
+      "name": "cauliflower",
+      "carbohydrates_g": 4.97,
+      "fat_g": 0.28,
+      "protein_g": 1.92,
+      "fibre_g": 2.0,
+      "sugar_g": 1.91
+    },
+    {
+      "name": "chicken_cooked",
+      "carbohydrates_g": 0.0,
+      "fat_g": 9.63,
+      "protein_g": 26.05,
+      "fibre_g": 0.0,
+      "sugar_g": 0.0,
+      "review_note": "Transcribed from the photo; fat/protein values differ from the cooked skinless chicken-breast profile discussed earlier."
+    },
+    {
+      "name": "chole_cooked_chickpeas",
+      "carbohydrates_g": 20.7,
+      "fat_g": 2.59,
+      "protein_g": 7.48,
+      "fibre_g": 7.42,
+      "sugar_g": 4.8
+    },
+    {
+      "name": "corn_cooked",
+      "carbohydrates_g": 13.31,
+      "fat_g": 1.6,
+      "protein_g": 3.635,
+      "fibre_g": 5.43,
+      "sugar_g": 2.25,
+      "review_note": "Values transcribed as written; they differ from the boiled sweet-corn profile discussed earlier."
+    },
+    {
+      "name": "egg",
+      "carbohydrates_g": 1.95,
+      "fat_g": 10.68,
+      "protein_g": 12.915,
+      "fibre_g": 0.0,
+      "sugar_g": 1.5,
+      "review_note": "Fat entry was overwritten/unclear in the photo; 10.68 was interpreted from the handwriting."
+    },
+    {
+      "name": "green_peas_cooked",
+      "carbohydrates_g": 15.6,
+      "fat_g": 0.22,
+      "protein_g": 5.36,
+      "fibre_g": 5.5,
+      "sugar_g": 5.93
+    },
+    {
+      "name": "noodles",
+      "carbohydrates_g": 25.2,
+      "fat_g": 2.1,
+      "protein_g": 4.5,
+      "fibre_g": 1.2,
+      "sugar_g": 0.0
+    },
+    {
+      "name": "olive",
+      "carbohydrates_g": 6.26,
+      "fat_g": 10.68,
+      "protein_g": 0.84,
+      "fibre_g": 3.2,
+      "sugar_g": 0.0
+    },
+    {
+      "name": "onion",
+      "carbohydrates_g": 9.3,
+      "fat_g": 0.1,
+      "protein_g": 1.1,
+      "fibre_g": 1.7,
+      "sugar_g": 4.2
+    },
+    {
+      "name": "paneer",
+      "carbohydrates_g": 2.25,
+      "fat_g": 24.5,
+      "protein_g": 17.5,
+      "fibre_g": 0.0,
+      "sugar_g": 2.25
+    },
+    {
+      "name": "pasta",
+      "carbohydrates_g": 30.9,
+      "fat_g": 0.9,
+      "protein_g": 5.8,
+      "fibre_g": 1.8,
+      "sugar_g": 0.6
+    },
+    {
+      "name": "potato",
+      "carbohydrates_g": 20.1,
+      "fat_g": 0.1,
+      "protein_g": 1.9,
+      "fibre_g": 1.8,
+      "sugar_g": 0.9
+    },
+    {
+      "name": "rice",
+      "carbohydrates_g": 28.2,
+      "fat_g": 0.28,
+      "protein_g": 2.69,
+      "fibre_g": 0.4,
+      "sugar_g": 0.05
+    },
+    {
+      "name": "shrimp",
+      "carbohydrates_g": 1.5,
+      "fat_g": 1.7,
+      "protein_g": 22.8,
+      "fibre_g": 0.0,
+      "sugar_g": 0.0
+    },
+    {
+      "name": "tomato",
+      "carbohydrates_g": 3.89,
+      "fat_g": 0.2,
+      "protein_g": 0.88,
+      "fibre_g": 1.2,
+      "sugar_g": 3.62
+    },
+    {
+      "name": "dal",
+      "calories_kcal": 158,
+      "carbohydrates_g": 20.3,
+      "fat_g": 5.8,
+      "protein_g": 7.3,
+      "fibre_g": 6.7,
+      "sugar_g": 2.5,
+      "basis": "95 g cooked mixed pulse + 5 g oil per 100 g; generic average of toor, moong, masoor, chana and urad dal"
+    },
+    {
+      "name": "gravy",
+      "calories_kcal": 127,
+      "carbohydrates_g": 5.2,
+      "fat_g": 11.4,
+      "protein_g": 1.9,
+      "fibre_g": 0.7,
+      "sugar_g": 3.5,
+      "basis": "40 g whole-milk curd + 25 g tomato + 25 g onion + 10 g oil per 100 g"
+    }
+  ],
+  "notes": [
+    "All nutrient quantities are grams per 100 g unless stated otherwise.",
+    "The column labelled 'other' in the photo was interpreted as sugar based on the heading.",
+    "Some handwritten values are ambiguous or inconsistent with standard nutrient profiles; review_note fields flag the clearest cases."
+  ]
+}
